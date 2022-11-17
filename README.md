@@ -1,18 +1,16 @@
-## Getting Started
+## Sobre o Projeto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório apresenta a implementação em Java do padrão de projeto estrutural Composite. Esta implementação é apresentada como atividade extraclasse para a disciplina Análise e Projeto de Sistemas, ministrada em 2022.2 pelo Prof. Dr. Léuson M. P. da Silva na Universidade Católica de Pernambuco – UNICAP.
 
-## Folder Structure
+## Estrutura do Padrão
 
-The workspace contains two folders by default, where:
+O padrão se divide em três componentes:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `IComponent`: interface comum implementada pelos componentes da árvore;
+- `Composite`: objetos comlexos; os contêineres;
+- `Leaf`: objetos simples;
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+A imagem abaixo apresenta a estrutura de objetos simples (produtos) e complexos (caixas) utilizados como exemplo para a estruturação da árvore no arquivo App.java
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![image](https://user-images.githubusercontent.com/49106944/202584745-9173aa26-2464-480c-b324-8ea57e5604a0.png)
